@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "332821376116",
+    "firebase_url": "https://esctransition.firebaseio.com",
+    "project_id": "esctransition",
+    "storage_bucket": "esctransition.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332821376116:android:143a849ae45f0d5db8b521",
+        "android_client_info": {
+          "package_name": "gerber.apress.esctransition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332821376116-39dp9aet6783f3u3qtmg15b2bnj9fcs3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gerber.apress.esctransition",
+            "certificate_hash": "71036f39301a45546b1e469c05319f5a64899639"
+          }
+        },
+        {
+          "client_id": "332821376116-62s5d10tkhsd3fi9pnt0auvec434s169.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH5w410RLxH7_nKv86d8jxdeNbvQIW3LM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332821376116-62s5d10tkhsd3fi9pnt0auvec434s169.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
