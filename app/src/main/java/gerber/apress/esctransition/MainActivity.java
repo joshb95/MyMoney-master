@@ -72,4 +72,14 @@ public class MainActivity extends AppCompatActivity {
         finish();
     }
 
+    public void income (View view){
+        startActivity(new Intent(getApplicationContext(),Income.class)); //sends the user to their account Page
+        finish();
+    }
+
+    public void outgoings (View view){
+        startActivity(new Intent(getApplicationContext(),Outgoings.class)); //sends the user to their account Page
+        finish();
+    }
+
 }
