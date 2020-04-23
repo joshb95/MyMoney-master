@@ -1,5 +1,6 @@
 package gerber.apress.esctransition;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -77,5 +78,9 @@ public class Income extends AppCompatActivity {
         intype.setText("");
         inprice.setText("");
         intype.requestFocus();
+    }
+    public void home (View view){
+        startActivity(new Intent(getApplicationContext(),MainActivity.class)); //sends the user to the Main Activity Page
+        finish();
     }
 }

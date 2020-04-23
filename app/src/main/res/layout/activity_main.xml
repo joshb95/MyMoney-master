@@ -60,13 +60,16 @@
         android:id="@+id/verifybtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="27dp"
         android:text="Verify"
         android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/moneytxt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="63dp" />
+        app:layout_constraintTop_toBottomOf="@+id/verifytxt" />
 
     <Button
         android:id="@+id/inbtn"
@@ -76,15 +79,15 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="19dp"
+        android:onClick="income"
         android:text="Income"
         android:textColor="@color/common_google_signin_btn_text_dark_focused"
         app:layout_constraintBottom_toTopOf="@+id/outbtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        android:onClick="income"/>
+        app:layout_constraintVertical_bias="0.985" />
 
     <Button
         android:id="@+id/outbtn"
@@ -92,13 +95,28 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="188dp"
+        android:layout_marginBottom="260dp"
+        android:onClick="outgoings"
         android:text="Outgoings"
         app:layout_constraintBottom_toTopOf="@+id/myAccountBtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/moneytxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="44dp"
+        android:text="My Money App"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/inbtn"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:onClick="outgoings"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </android.support.constraint.ConstraintLayout>
