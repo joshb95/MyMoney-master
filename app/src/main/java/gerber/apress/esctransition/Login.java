@@ -41,7 +41,6 @@ public class Login extends AppCompatActivity {
         mresetTxt =findViewById(R.id.resetTxt);
 
         fAuth = FirebaseAuth.getInstance(); //Getting current instance of the Firebase
-        progressBar = findViewById(R.id.progressBar);
 
         mLoginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -64,7 +63,6 @@ public class Login extends AppCompatActivity {
                     return;
                 }
 
-                progressBar.setVisibility(View.VISIBLE); //Making the Progress Bar Visible
 
                 //Authenticating the user
 
@@ -77,7 +75,6 @@ public class Login extends AppCompatActivity {
                        }
                        else {
                            Toast.makeText(Login.this, "Error, User Not Recognised. Please check your details" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
-                           progressBar.setVisibility(View.GONE);
                        }
                     }
                 });
