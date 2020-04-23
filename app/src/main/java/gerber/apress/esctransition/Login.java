@@ -26,7 +26,6 @@ public class Login extends AppCompatActivity {
     Button mLoginBtn;
     TextView mRegisterTxt,mresetTxt;
     FirebaseAuth fAuth;
-    ProgressBar progressBar;
     //Creation of Variables
 
     @Override
