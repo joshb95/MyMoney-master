@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ESCTransition</string>
+    <string name="title_activity_shoppinglist">shoppinglist</string>
+    <string name="title_activity_shopping_list">shoppingList</string>
 </resources>

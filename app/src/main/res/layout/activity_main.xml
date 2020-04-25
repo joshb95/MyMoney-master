@@ -130,6 +130,7 @@
         android:layout_marginTop="26dp"
         android:layout_marginEnd="162dp"
         android:layout_marginBottom="139dp"
+        android:onClick="list"
         android:text="Shopping List"
         app:layout_constraintBottom_toTopOf="@+id/myAccountBtn"
         app:layout_constraintEnd_toEndOf="parent"

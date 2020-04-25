@@ -81,5 +81,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(),Outgoings.class)); //sends the user to their account Page
         finish();
     }
+    public void list (View view){
+        startActivity(new Intent(getApplicationContext(),shoppingList.class)); //sends the user to their account Page
+        finish();
+    }
 
 }
