@@ -3,6 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/universalbackground"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
@@ -95,7 +97,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="260dp"
+        android:layout_marginBottom="212dp"
         android:onClick="outgoings"
         android:text="Outgoings"
         app:layout_constraintBottom_toTopOf="@+id/myAccountBtn"
@@ -115,8 +117,24 @@
         android:textSize="36sp"
         app:layout_constraintBottom_toTopOf="@+id/inbtn"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/listbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="139dp"
+        android:text="Shopping List"
+        app:layout_constraintBottom_toTopOf="@+id/myAccountBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/outbtn" />
 
 
 </android.support.constraint.ConstraintLayout>

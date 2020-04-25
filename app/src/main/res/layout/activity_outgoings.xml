@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+
+    android:background="@drawable/universalbackground"
     android:gravity="center"
     tools:context=".Outgoings">
 
@@ -73,13 +75,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <Button
+            android:id="@+id/btn1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/btn1"
-            android:text="Add"
             android:background="@color/colorAccent"
-            />
+            android:text="Add" />
     </LinearLayout>
 
     <LinearLayout
@@ -91,9 +93,9 @@
             android:id="@+id/btn2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/common_google_signin_btn_text_light_focused"
-            android:text="Home"
-            android:onClick="home"/>
+            android:background="@color/common_google_signin_btn_text_dark_default"
+            android:onClick="home"
+            android:text="Home" />
     </LinearLayout>
 
     <LinearLayout
